@@ -1,4 +1,4 @@
-package br.com.willbigas.workercompras.producer;
+package br.com.willbigas.workercompras.service.producer;
 
 import br.com.willbigas.workercompras.model.Pedido;
 import com.fasterxml.jackson.core.JsonProcessingException;

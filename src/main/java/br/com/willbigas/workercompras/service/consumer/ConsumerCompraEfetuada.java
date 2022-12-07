@@ -1,7 +1,7 @@
-package br.com.willbigas.workercompras.consumer;
+package br.com.willbigas.workercompras.service.consumer;
 
 import br.com.willbigas.workercompras.model.Pedido;
-import br.com.willbigas.workercompras.producer.ProducerCompraPendente;
+import br.com.willbigas.workercompras.service.producer.ProducerCompraPendente;
 import br.com.willbigas.workercompras.service.EmailService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
