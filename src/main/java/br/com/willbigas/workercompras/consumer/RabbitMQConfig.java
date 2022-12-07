@@ -8,11 +8,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitMQConfig {
 
-	@Value("${queue_name}")
-	private String queueName;
+	@Value("${queue_name_producer}")
+	private String queueNameProducer;
 
 	@Bean
 	public Queue queue() {
-		return new Queue(queueName, true);
+		return new Queue(queueNameProducer, true);
 	}
 }
